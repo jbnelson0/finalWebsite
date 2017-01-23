@@ -1,0 +1,54 @@
+.row{
+	float: left;
+	text-align: center;
+	margin: 20px;
+	width: 45%;
+	box-sizing: border-box;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.buttons{
+	display: block;
+}
+
+.name{
+	float: right;
+	display: block;
+	margin: 20px;
+}
+
+.buttons{
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+
+.btop:active {
+	color: green;
+}
+.btop:hover {
+	color: green;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.center{
+	display: block;
+	margin: auto;
+	width: 55%;
+}
+
+.headers {
+	color: grey;
+}
